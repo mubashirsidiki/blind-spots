@@ -1,0 +1,225 @@
+{
+  "timing_summary": {
+    "total_duration_seconds": 176.3,
+    "model_loading_seconds": 4.02,
+    "preprocessing_seconds": 0.22,
+    "generation_seconds": 171.89,
+    "decoding_seconds": 0.01,
+    "total_generated_tokens": 3206,
+    "avg_generation_speed_tok_s": 18.7
+  },
+  "pages": [
+    {
+      "image": "1.jpg",
+      "dimensions": "931x1276",
+      "queries": {
+        "full_transcription": {
+          "prompt": "Read all text from this restaurant cover page, including English and Urdu, exactly as written.",
+          "timing": {
+            "test_name": "full_transcription",
+            "input_tokens": 1188,
+            "output_tokens": 64,
+            "preprocessing_time_sec": 0.076,
+            "generation_time_sec": 4.05,
+            "decoding_time_sec": 0.01,
+            "total_time_sec": 4.137,
+            "tokens_per_second": 15.8
+          },
+          "response": "Enjoy The Taste Of Our\nExclusive Recipes\nNOTE: PRICES ARE INCLUSIVE OF TAXES.\nجاری کوئی اور برائے نہیں ہے\nhttps://www.facebook.com/Nooranikabab11?mibextid=ZbWKwL"
+        }
+      }
+    },
+    {
+      "image": "2.jpg",
+      "dimensions": "638x800",
+      "queries": {
+        "english_extraction": {
+          "prompt": "Extract all English dish names and their prices from this menu. Format as a clean list: 'Dish Name - Price'.",
+          "timing": {
+            "test_name": "english_extraction",
+            "input_tokens": 535,
+            "output_tokens": 248,
+            "preprocessing_time_sec": 0.012,
+            "generation_time_sec": 10.338,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 10.35,
+            "tokens_per_second": 24.0
+          },
+          "response": "KATA KAT MIX PLATE - 1430\nKATA KAT MIX PLATE (WITH BUTTER) - 1630\nBRAIN MASALA - 1100\nBRAIN MASALA (WITH BUTTER) - 1300\nKIDNEY MASALA - 880\nKIDNEY MASALA (WITH BUTTER) - 1080\nMUTTON CHAMPS MASALA - 880\nMUTTON CHAMPS MASALA (WITH BUTTER) - 1080\nKAPOORA MASALA - 880\nKAPOORA MASALA (WITH BUTTER) - 1080\nCHICKEN KATA KAT (WITH BONE) - 1800 / 900\nCHICKEN KATA KAT (WITH BUTTER) - 2200 / 1100\nCHICKEN BONELESS KATA KAT - 2280 / 1140\nCHICKEN BONELESS KATA KAT (WITH BUTTER) - 2680 / 1340"
+        },
+        "urdu_extraction": {
+          "prompt": "Extract all Urdu dish names and their prices from this menu. Format as a clean list: 'اردو نام - قیمت'.",
+          "timing": {
+            "test_name": "urdu_extraction",
+            "input_tokens": 538,
+            "output_tokens": 318,
+            "preprocessing_time_sec": 0.019,
+            "generation_time_sec": 14.231,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 14.25,
+            "tokens_per_second": 22.3
+          },
+          "response": "- کاٹ کاٹ میکس پلاٹ - 1430\n- کاٹ کاٹ میکس پلاٹ (بٹر) - 1630\n- براين ماسلا - 1100\n- براين ماسلا (بٹر) - 1300\n- کیڈنی ماسلا - 880\n- کیڈنی ماسلا (بٹر) - 1080\n- موتون چامپس ماسلا - 880\n- موتون چامپس ماسلا (بٹر) - 1080\n- کاپورا ماسلا - 880\n- کاپورا ماسلا (بٹر) - 1080\n- چیکن کاٹ کاٹ (بٹر) - 1800 / 900\n- چیکن کاٹ کاٹ (بٹر) - 2200 / 1100\n- چیکن بونلیس کاٹ کاٹ - 2280 / 1140\n- چیکن بونلیس کاٹ کاٹ (بٹر) - 2680 / 1340"
+        },
+        "bilingual_alignment": {
+          "prompt": "For each item in this menu, extract the English dish name, the Urdu dish name, and the price in PKR. Format each item on a new line.",
+          "timing": {
+            "test_name": "bilingual_alignment",
+            "input_tokens": 543,
+            "output_tokens": 141,
+            "preprocessing_time_sec": 0.01,
+            "generation_time_sec": 7.37,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 7.381,
+            "tokens_per_second": 19.1
+          },
+          "response": "KATA KAT MIX PLATE, KATA KAT MIX PLATE (WITH BUTTER), BRAIN MASALA, BRAIN MASALA (WITH BUTTER), KIDNEY MASALA, KIDNEY MASALA (WITH BUTTER), MUTTON CHAMPS MASALA, MUTTON CHAMPS MASALA (WITH BUTTER), KAPOORA MASALA, KAPOORA MASALA (WITH BUTTER), CHICKEN, CHICKEN KATA KAT (WITH BONE), CHICKEN KATA KAT (WITH BUTTER), CHICKEN BONELESS KATA KAT, CHICKEN BONELESS KATA KAT (WITH BUTTER)"
+        }
+      }
+    },
+    {
+      "image": "3.jpg",
+      "dimensions": "638x800",
+      "queries": {
+        "english_extraction": {
+          "prompt": "Extract all English dish names and their prices from this menu. Format as a clean list: 'Dish Name - Price'.",
+          "timing": {
+            "test_name": "english_extraction",
+            "input_tokens": 535,
+            "output_tokens": 363,
+            "preprocessing_time_sec": 0.01,
+            "generation_time_sec": 18.883,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 18.893,
+            "tokens_per_second": 19.2
+          },
+          "response": "- BRAIN (PER PIECE) - 550\n- KIDNEY (PER PIECE) - 220\n- CHAMP (PER PIECE) - 220\n- DIL (PER PICE) - 220\n- KAPOORA (PER PIECE) - 220\n- CHICKEN (PER PIECE) - 450\n- CHICKEN BONELESS (PER PIECE) - 570\n- BUTTER (PER PIECE) - 100\n- PESHAWARI KARAHI - 3800 / 2000\n- PESHAWARI KARAHI (WITH BUTTER) - 4200 / 2200\n- PESHAWARI WHITE KARAHI - 3900 / 2100\n- PESHAWARI WHITE KARAHI (WITH BUTTER) - 4300 / 2300\n- PESHAWARI BROWN KARAHI - 3800 / 2000\n- PESHAWARI KARAHI - 2200 / 1200\n- PESHAWARI KARAHI (WITH BUTTER) - 2600 / 1400\n- PESHAWARI WHITE KARAHI - 2300 / 1300\n- PESHAWARI WHITE KARAHI (WITH BUTTER) - 2700 / 1500\n- BROWN KARAHI - 2200 / 1200"
+        },
+        "urdu_extraction": {
+          "prompt": "Extract all Urdu dish names and their prices from this menu. Format as a clean list: 'اردو نام - قیمت'.",
+          "timing": {
+            "test_name": "urdu_extraction",
+            "input_tokens": 538,
+            "output_tokens": 374,
+            "preprocessing_time_sec": 0.01,
+            "generation_time_sec": 20.263,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 20.273,
+            "tokens_per_second": 18.5
+          },
+          "response": "- براين - 550\n- کیندی - 220\n- شامپ - 220\n- دیل - 220\n- کاپورا - 220\n- چینکن - 450\n- چینکن بونل - 570\n- باتر - 100\n- مUTTON - 3800 / 2000\n- پESHAWARI کاراھی (بیت) - 4200 / 2200\n- پESHAWARI کاراھی (بیت) - 3900 / 2100\n- پESHAWARI ہیلی کاراھی (بیت) - 4300 / 2300\n- پESHAWARI بروں کاراھی - 3800 / 2000\n- چینکن - 2200 / 1200\n- پESHAWARI کاراھی - 2200 / 1200\n- پESHAWARI کاراھی (بیت) - 2600 / 1400\n- پESHAWARI کاراھی (بیت) - 2300 / 1300\n- پESHAWARI ہیلی کاراھی (بیت) - 2700 / 1500\n- بروں کاراھی - 2200 / 1200"
+        },
+        "bilingual_alignment": {
+          "prompt": "For each item in this menu, extract the English dish name, the Urdu dish name, and the price in PKR. Format each item on a new line.",
+          "timing": {
+            "test_name": "bilingual_alignment",
+            "input_tokens": 543,
+            "output_tokens": 553,
+            "preprocessing_time_sec": 0.011,
+            "generation_time_sec": 27.833,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 27.844,
+            "tokens_per_second": 19.9
+          },
+          "response": "- BRAIN (PER PIECE) 550 (پیسہ)\n- KIDNEY (PER PIECE) 220 (کیڈی)\n- CHAMP (PER PIECE) 220 (چمپ)\n- DIL (PER PICE) 220 (دل)\n- KAPOORA (PER PIECE) 220 (کاپور)\n- CHICKEN (PER PIECE) 450 (چکن)\n- CHICKEN BONELESS (PER PIECE) 570 (چکن)\n- BUTTER (PER PIECE) 100 (بٹر)\n\n- MUTTON\n  - PESHAWARI KARAHI 3800 / 2000 (پیشواوی کاراہی)\n  - PESHAWARI KARAHI (WITH BUTTER) 4200 / 2200 (پیشواوی کاراہی (بٹر))\n  - PESHAWARI WHITE KARAHI 3900 / 2100 (پیشواوی ہیلی کاراہی)\n  - PESHAWARI WHITE KARAHI (WITH BUTTER) 4300 / 2300 (پیشواوی ہیلی کاراہی (بٹر))\n  - PESHAWARI BROWN KARAHI 3800 / 2000 (پیشواوی براون کاراہی)\n\n- CHICKEN\n  - PESHAWARI KARAHI 2200 / 1200 (پیشواوی کاراہی)\n  - PESHAWARI KARAHI (WITH BUTTER) 2600 / 1400 (پیشواوی کاراہی (بٹر))\n  - PESHAWARI WHITE KARAHI 2300 / 1300 (پیشواوی ہیلی کاراہی)\n  - PESHAWARI WHITE KARAHI (WITH BUTTER) 2700 / 1500 (پیشواوی ہیلی کاراہی (بٹر))\n  - BROWN KARAHI 2200 / 1200 (برون کاراہی)"
+        }
+      }
+    },
+    {
+      "image": "4.jpg",
+      "dimensions": "638x800",
+      "queries": {
+        "english_extraction": {
+          "prompt": "Extract all English dish names and their prices from this menu. Format as a clean list: 'Dish Name - Price'.",
+          "timing": {
+            "test_name": "english_extraction",
+            "input_tokens": 535,
+            "output_tokens": 167,
+            "preprocessing_time_sec": 0.011,
+            "generation_time_sec": 9.37,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 9.381,
+            "tokens_per_second": 17.8
+          },
+          "response": "- Noorani Special Kabab Beef - 640\n- Behari Boti Beef - 680\n- Seekh Boti Beef - 590\n- Afghan Boti Beef - 700\n- Chicken Tikka - 430\n- Chicken Malai Tikka - 450\n- Bihari Chicken Tikka - 450\n- Chicken Boti - 860\n- Chicken Malai Boti - 790\n- Chicken Bihari Boti Boneless - 800\n- Chicken Reshmi Kebab - 540\n- Mutton Champ - 900\n- Mutton Kapoora - 880\n- Mutton Kidney - 880"
+        },
+        "urdu_extraction": {
+          "prompt": "Extract all Urdu dish names and their prices from this menu. Format as a clean list: 'اردو نام - قیمت'.",
+          "timing": {
+            "test_name": "urdu_extraction",
+            "input_tokens": 538,
+            "output_tokens": 243,
+            "preprocessing_time_sec": 0.011,
+            "generation_time_sec": 14.908,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 14.919,
+            "tokens_per_second": 16.3
+          },
+          "response": "- نورانی سپیشل کاباب بیف - 640\n- بہہری بیت بیف - 680\n- سکھ بیت بیف - 590\n- افغانی بیت بیف - 700\n- چینکی تکا - 430\n- چینکی مالای تکا - 450\n- بیہاری چینکی تکا - 450\n- چینکی بیت - 860\n- چینکی مالای بیت - 790\n- چینکی بیہاری بیت بونلیس - 800\n- چینکی رشمنی کیب - 540\n- مUTTON چمپ - 900\n- مUTTON کاپورا - 880\n- مUTTON کینی - 880"
+        },
+        "bilingual_alignment": {
+          "prompt": "For each item in this menu, extract the English dish name, the Urdu dish name, and the price in PKR. Format each item on a new line.",
+          "timing": {
+            "test_name": "bilingual_alignment",
+            "input_tokens": 543,
+            "output_tokens": 360,
+            "preprocessing_time_sec": 0.01,
+            "generation_time_sec": 22.132,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 22.142,
+            "tokens_per_second": 16.3
+          },
+          "response": "- NOORANI SPECIAL KABAB BEEF, نورانی سپیشل کاباب بیف, 640\n- BEHARI BOTI BEEF, بہاری بٹی بیف, 680\n- SEEKH BOTI BEEF, سکھ بٹی بیف, 590\n- AFGHANI BOTI BEEF, افغانی بٹی بیف, 700\n- CHICKEN TIKKA, چیکن تکا, 430\n- CHICKEN MALAI TIKKA, چیکن مالائی تکا, 450\n- BIHARI CHICKEN TIKKA, بیہاری چیکن تکا, 450\n- CHICKEN BOTI, چیکن بٹی, 860\n- CHICKEN MALAI BOTI, چیکن مالائی بٹی, 790\n- CHICKEN BIHARI BOTI BONELESS, چیکن بیہاری بٹی بونلیس, 800\n- CHICKEN RESHMI KEBAB, چیکن ریشمی کباب, 540\n- MUTTON CHAMP, مUTTON چامپ, 900\n- MUTTON KAPOORA, مUTTON کاپورا, 880\n- MUTTON KIDNEY, مUTTON کینی, 880"
+        }
+      }
+    },
+    {
+      "image": "5.jpg",
+      "dimensions": "638x800",
+      "queries": {
+        "english_extraction": {
+          "prompt": "Extract all English dish names and their prices from this menu. Format as a clean list: 'Dish Name - Price'.",
+          "timing": {
+            "test_name": "english_extraction",
+            "input_tokens": 535,
+            "output_tokens": 114,
+            "preprocessing_time_sec": 0.014,
+            "generation_time_sec": 6.874,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 6.889,
+            "tokens_per_second": 16.6
+          },
+          "response": "- Green Salad - 120\n- Raita - 150\n- Nan - 30\n- Masala Nan - 50\n- Chapati - 20\n- Paratha - 120\n- Pepsi Can - 130\n- Marinda Can - 130\n- 7UP - Can - 130\n- Diet 7UP Can - 130\n- Mineral Water Large - 130\n- Mineral Water Small - 70"
+        },
+        "urdu_extraction": {
+          "prompt": "Extract all Urdu dish names and their prices from this menu. Format as a clean list: 'اردو نام - قیمت'.",
+          "timing": {
+            "test_name": "urdu_extraction",
+            "input_tokens": 538,
+            "output_tokens": 162,
+            "preprocessing_time_sec": 0.013,
+            "generation_time_sec": 9.799,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 9.812,
+            "tokens_per_second": 16.5
+          },
+          "response": "- گرین سالاد - 120\n- رائٹا - 150\n- نان - 30\n- ماسلا نان - 50\n- شاپاتی - 20\n- پاراثا - 120\n- پیپسی کان - 130\n- مارینا کان - 130\n- 7UP کان - 130\n- دیت 7UP کان - 130\n- مینرل ویت گریم لارج - 130\n- مینرل ویت گریم سمال - 70"
+        },
+        "bilingual_alignment": {
+          "prompt": "For each item in this menu, extract the English dish name, the Urdu dish name, and the price in PKR. Format each item on a new line.",
+          "timing": {
+            "test_name": "bilingual_alignment",
+            "input_tokens": 543,
+            "output_tokens": 99,
+            "preprocessing_time_sec": 0.012,
+            "generation_time_sec": 5.837,
+            "decoding_time_sec": 0.0,
+            "total_time_sec": 5.85,
+            "tokens_per_second": 17.0
+          },
+          "response": "GREEN SALAD 120\nRAITA 150\nNAN 30\nMASALA NAN 50\nCHAPATI 20\nPARATHA 120\nPEPSI CAN 130\nMARINDA CAN 130\n7UP - CAN 130\nDIET 7UP CAN 130\nMINERAL WATER LARGE 130\nMINERAL WATER SMALL 70"
+        }
+      }
+    }
+  ]
+}

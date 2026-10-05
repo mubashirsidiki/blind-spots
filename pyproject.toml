@@ -1,0 +1,22 @@
+[project]
+name = "blind-spots"
+version = "0.1.0"
+description = "Evaluation of Frontier Vision-Language Models on Pakistani Urdu Nastaliq Menus"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers>=4.57.0",
+    "accelerate>=1.0.0",
+    "pillow>=10.0.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }
+torchvision = { index = "pytorch-cu121" }
+

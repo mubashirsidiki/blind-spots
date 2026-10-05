@@ -1,0 +1,477 @@
+{
+  "restaurant_name": "Noorani Kabab House",
+  "metadata": {
+    "total_images": 5,
+    "total_menu_items": 60,
+    "language_pair": ["en", "ur"],
+    "script": "Nastaliq",
+    "currency": "PKR",
+    "location": "Pakistan"
+  },
+  "pages": [
+    {
+      "image": "1.jpg",
+      "page_title": "Cover / Notice",
+      "items": [
+        {
+          "id": "1_1",
+          "english": "Enjoy The Taste Of Our Exclusive Recipes",
+          "urdu": "ہماری کوئی اور برانچ نہیں ہے",
+          "price": null,
+          "notes": "Announcement text at bottom"
+        },
+        {
+          "id": "1_2",
+          "english": "NOTE: PRICES ARE INCLUSIVE OF TAXES.",
+          "urdu": null,
+          "price": null,
+          "notes": "Policy note"
+        }
+      ]
+    },
+    {
+      "image": "2.jpg",
+      "page_title": "KATA KAT SPECIALTIES",
+      "items": [
+        {
+          "id": "2_1",
+          "category": "Kata Kat",
+          "english": "KATA KAT MIX PLATE",
+          "urdu": "کٹا کٹ مکس پلیٹ",
+          "price": "1430"
+        },
+        {
+          "id": "2_2",
+          "category": "Kata Kat",
+          "english": "KATA KAT MIX PLATE (WITH BUTTER)",
+          "urdu": "کٹا کٹ مکس پلیٹ (مکھن کے ساتھ)",
+          "price": "1630"
+        },
+        {
+          "id": "2_3",
+          "category": "Kata Kat",
+          "english": "BRAIN MASALA",
+          "urdu": "برین مصالحہ",
+          "price": "1100"
+        },
+        {
+          "id": "2_4",
+          "category": "Kata Kat",
+          "english": "BRAIN MASALA (WITH BUTTER)",
+          "urdu": "برین مصالحہ (مکھن کے ساتھ)",
+          "price": "1300"
+        },
+        {
+          "id": "2_5",
+          "category": "Kata Kat",
+          "english": "KIDNEY MASALA",
+          "urdu": "کڈنی مصالحہ",
+          "price": "880"
+        },
+        {
+          "id": "2_6",
+          "category": "Kata Kat",
+          "english": "KIDNEY MASALA (WITH BUTTER)",
+          "urdu": "کڈنی مصالحہ (مکھن کے ساتھ)",
+          "price": "1080"
+        },
+        {
+          "id": "2_7",
+          "category": "Kata Kat",
+          "english": "MUTTON CHAMPS MASALA",
+          "urdu": "مٹن چانپ مصالحہ",
+          "price": "880"
+        },
+        {
+          "id": "2_8",
+          "category": "Kata Kat",
+          "english": "MUTTON CHAMPS MASALA (WITH BUTTER)",
+          "urdu": "مٹن چانپ مصالحہ (مکھن کے ساتھ)",
+          "price": "1080"
+        },
+        {
+          "id": "2_9",
+          "category": "Kata Kat",
+          "english": "KAPOORA MASALA",
+          "urdu": "کپورا مصالحہ",
+          "price": "880"
+        },
+        {
+          "id": "2_10",
+          "category": "Kata Kat",
+          "english": "KAPOORA MASALA (WITH BUTTER)",
+          "urdu": "کپورا مصالحہ (مکھن کے ساتھ)",
+          "price": "1080"
+        },
+        {
+          "id": "2_11",
+          "category": "Chicken Kata Kat",
+          "english": "CHICKEN KATA KAT (WITH BONE)",
+          "urdu": "چکن کٹاکٹ ہڈی والا",
+          "price_full": "1800",
+          "price_half": "900"
+        },
+        {
+          "id": "2_12",
+          "category": "Chicken Kata Kat",
+          "english": "CHICKEN KATA KAT (WITH BUTTER)",
+          "urdu": "چکن کٹاکٹ ہڈی والا (مکھن کے ساتھ)",
+          "price_full": "2200",
+          "price_half": "1100"
+        },
+        {
+          "id": "2_13",
+          "category": "Chicken Kata Kat",
+          "english": "CHICKEN BONELESS KATA KAT",
+          "urdu": "چکن بون لیس کٹاکٹ",
+          "price_full": "2280",
+          "price_half": "1140"
+        },
+        {
+          "id": "2_14",
+          "category": "Chicken Kata Kat",
+          "english": "CHICKEN BONELESS KATA KAT (WITH BUTTER)",
+          "urdu": "چکن بون لیس کٹاکٹ (مکھن کے ساتھ)",
+          "price_full": "2680",
+          "price_half": "1340"
+        }
+      ]
+    },
+    {
+      "image": "3.jpg",
+      "page_title": "FROM OUR THAL & KARAHI SPECIALITIES",
+      "items": [
+        {
+          "id": "3_1",
+          "category": "From Our Thal",
+          "english": "BRAIN (PER PIECE)",
+          "urdu": "برین (فی پیس)",
+          "price": "550"
+        },
+        {
+          "id": "3_2",
+          "category": "From Our Thal",
+          "english": "KIDNEY (PER PIECE)",
+          "urdu": "کڈنی (فی پیس)",
+          "price": "220"
+        },
+        {
+          "id": "3_3",
+          "category": "From Our Thal",
+          "english": "CHAMP (PER PIECE)",
+          "urdu": "چانپ (فی پیس)",
+          "price": "220"
+        },
+        {
+          "id": "3_4",
+          "category": "From Our Thal",
+          "english": "DIL (PER PICE)",
+          "urdu": "دل (فی پیس)",
+          "price": "220"
+        },
+        {
+          "id": "3_5",
+          "category": "From Our Thal",
+          "english": "KAPOORA (PER PIECE)",
+          "urdu": "کپورا (فی پیس)",
+          "price": "220"
+        },
+        {
+          "id": "3_6",
+          "category": "From Our Thal",
+          "english": "CHICKEN (PER PIECE)",
+          "urdu": "چکن (فی پیس)",
+          "price": "450"
+        },
+        {
+          "id": "3_7",
+          "category": "From Our Thal",
+          "english": "CHICKEN BONELESS (PER PIECE)",
+          "urdu": "چکن بون لیس (فی پیس)",
+          "price": "570"
+        },
+        {
+          "id": "3_8",
+          "category": "From Our Thal",
+          "english": "BUTTER (PER PIECE)",
+          "urdu": "مکھن (فی پیس)",
+          "price": "100"
+        },
+        {
+          "id": "3_9",
+          "category": "Mutton Karahi",
+          "english": "PESHAWARI KARAHI",
+          "urdu": "مٹن پشاوری کڑاہی",
+          "price_full": "3800",
+          "price_half": "2000"
+        },
+        {
+          "id": "3_10",
+          "category": "Mutton Karahi",
+          "english": "PESHAWARI KARAHI (WITH BUTTER)",
+          "urdu": "مٹن پشاوری کڑاہی (مکھن کے ساتھ)",
+          "price_full": "4200",
+          "price_half": "2200"
+        },
+        {
+          "id": "3_11",
+          "category": "Mutton Karahi",
+          "english": "PESHAWARI WHITE KARAHI",
+          "urdu": "مٹن پشاوری وائٹ کڑاہی",
+          "price_full": "3900",
+          "price_half": "2100"
+        },
+        {
+          "id": "3_12",
+          "category": "Mutton Karahi",
+          "english": "PESHAWARI WHITE KARAHI (WITH BUTTER)",
+          "urdu": "مٹن پشاوری وائٹ کڑاہی (مکھن کے ساتھ)",
+          "price_full": "4300",
+          "price_half": "2300"
+        },
+        {
+          "id": "3_13",
+          "category": "Mutton Karahi",
+          "english": "PESHAWARI BROWN KARAHI",
+          "urdu": "مٹن پشاوری براؤن کڑاہی",
+          "price_full": "3800",
+          "price_half": "2000"
+        },
+        {
+          "id": "3_14",
+          "category": "Chicken Karahi",
+          "english": "PESHAWARI KARAHI",
+          "urdu": "چکن پشاوری کڑاہی",
+          "price_full": "2200",
+          "price_half": "1200"
+        },
+        {
+          "id": "3_15",
+          "category": "Chicken Karahi",
+          "english": "PESHAWARI KARAHI (WITH BUTTER)",
+          "urdu": "چکن پشاوری کڑاہی (مکھن کے ساتھ)",
+          "price_full": "2600",
+          "price_half": "1400"
+        },
+        {
+          "id": "3_16",
+          "category": "Chicken Karahi",
+          "english": "PESHAWARI WHITE KARAHI",
+          "urdu": "چکن وائٹ کڑاہی",
+          "price_full": "2300",
+          "price_half": "1300"
+        },
+        {
+          "id": "3_17",
+          "category": "Chicken Karahi",
+          "english": "PESHAWARI WHITE KARAHI (WITH BUTTER)",
+          "urdu": "چکن وائٹ کڑاہی (مکھن کے ساتھ)",
+          "price_full": "2700",
+          "price_half": "1500"
+        },
+        {
+          "id": "3_18",
+          "category": "Chicken Karahi",
+          "english": "BROWN KARAHI",
+          "urdu": "چکن براؤن کڑاہی",
+          "price_full": "2200",
+          "price_half": "1200"
+        }
+      ]
+    },
+    {
+      "image": "4.jpg",
+      "page_title": "BAR B Q DISHES",
+      "items": [
+        {
+          "id": "4_1",
+          "category": "Beef BBQ",
+          "english": "NOORANI SPECIAL KABAB BEEF",
+          "urdu": "نورانی اسپیشل کباب بیف",
+          "price": "640"
+        },
+        {
+          "id": "4_2",
+          "category": "Beef BBQ",
+          "english": "BEHARI BOTI BEEF",
+          "urdu": "بہاری کباب بیف",
+          "price": "680"
+        },
+        {
+          "id": "4_3",
+          "category": "Beef BBQ",
+          "english": "SEEKH BOTI BEEF",
+          "urdu": "سیخ بوٹی بیف",
+          "price": "590"
+        },
+        {
+          "id": "4_4",
+          "category": "Beef BBQ",
+          "english": "AFGHANI BOTI BEEF",
+          "urdu": "افغانی بوٹی بیف",
+          "price": "700"
+        },
+        {
+          "id": "4_5",
+          "category": "Chicken BBQ",
+          "english": "CHICKEN TIKKA",
+          "urdu": "چکن تکہ",
+          "price": "430"
+        },
+        {
+          "id": "4_6",
+          "category": "Chicken BBQ",
+          "english": "CHICKEN MALAI TIKKA",
+          "urdu": "چکن ملائی تکہ",
+          "price": "450"
+        },
+        {
+          "id": "4_7",
+          "category": "Chicken BBQ",
+          "english": "BIHARI CHICKEN TIKKA",
+          "urdu": "بہاری چکن تکہ",
+          "price": "450"
+        },
+        {
+          "id": "4_8",
+          "category": "Chicken BBQ",
+          "english": "CHICKEN BOTI",
+          "urdu": "چکن بوٹی",
+          "price": "860"
+        },
+        {
+          "id": "4_9",
+          "category": "Chicken BBQ",
+          "english": "CHICKEN MALAI BOTI",
+          "urdu": "چکن ملائی بوٹی",
+          "price": "790"
+        },
+        {
+          "id": "4_10",
+          "category": "Chicken BBQ",
+          "english": "CHICKEN BIHARI BOTI BONELESS",
+          "urdu": "چکن بہاری بوٹی بون لیس",
+          "price": "800"
+        },
+        {
+          "id": "4_11",
+          "category": "Chicken BBQ",
+          "english": "CHICKEN RESHMI KEBAB",
+          "urdu": "چکن ریشمی کباب",
+          "price": "540"
+        },
+        {
+          "id": "4_12",
+          "category": "Mutton BBQ",
+          "english": "MUTTON CHAMP",
+          "urdu": "مٹن چانپ",
+          "price": "900"
+        },
+        {
+          "id": "4_13",
+          "category": "Mutton BBQ",
+          "english": "MUTTON KAPOORA",
+          "urdu": "مٹن کپورہ",
+          "price": "880"
+        },
+        {
+          "id": "4_14",
+          "category": "Mutton BBQ",
+          "english": "MUTTON KIDNEY",
+          "urdu": "مٹن کڈنی",
+          "price": "880"
+        }
+      ]
+    },
+    {
+      "image": "5.jpg",
+      "page_title": "SALADS, TANDOOR & BEVERAGES",
+      "items": [
+        {
+          "id": "5_1",
+          "category": "Salads",
+          "english": "GREEN SALAD",
+          "urdu": "گرین سلاد",
+          "price": "120"
+        },
+        {
+          "id": "5_2",
+          "category": "Salads",
+          "english": "RAITA",
+          "urdu": "رائتہ",
+          "price": "150"
+        },
+        {
+          "id": "5_3",
+          "category": "From Our Tandoor",
+          "english": "NAN",
+          "urdu": "نان",
+          "price": "30"
+        },
+        {
+          "id": "5_4",
+          "category": "From Our Tandoor",
+          "english": "MASALA NAN",
+          "urdu": "مسالہ نان",
+          "price": "50"
+        },
+        {
+          "id": "5_5",
+          "category": "From Our Tandoor",
+          "english": "CHAPATI",
+          "urdu": "چپاتی",
+          "price": "20"
+        },
+        {
+          "id": "5_6",
+          "category": "From Our Tandoor",
+          "english": "PARATHA",
+          "urdu": "پراٹھا",
+          "price": "120"
+        },
+        {
+          "id": "5_7",
+          "category": "Beverages",
+          "english": "PEPSI CAN",
+          "urdu": "پیپسی کین",
+          "price": "130"
+        },
+        {
+          "id": "5_8",
+          "category": "Beverages",
+          "english": "MARINDA CAN",
+          "urdu": "میرنڈا کین",
+          "price": "130"
+        },
+        {
+          "id": "5_9",
+          "category": "Beverages",
+          "english": "7UP - CAN",
+          "urdu": "7-UP کین",
+          "price": "130"
+        },
+        {
+          "id": "5_10",
+          "category": "Beverages",
+          "english": "DIET 7UP CAN",
+          "urdu": "ڈائٹ 7-UP کین",
+          "price": "130"
+        },
+        {
+          "id": "5_11",
+          "category": "Beverages",
+          "english": "MINERAL WATER LARGE",
+          "urdu": "منرل واٹر (بڑی)",
+          "price": "130"
+        },
+        {
+          "id": "5_12",
+          "category": "Beverages",
+          "english": "MINERAL WATER SMALL",
+          "urdu": "منرل واٹر (چھوٹی)",
+          "price": "70"
+        }
+      ]
+    }
+  ]
+}

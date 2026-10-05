@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Model weights & large downloads (do not commit 4.25GB)
+models/
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# Cache directories from linters, testing, and editors
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
+
+# Antigravity & Agent workspace settings
+.agents/
+AGENTS.md
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch and temporary scripts
+scratch/
+project_walkthrough.md
