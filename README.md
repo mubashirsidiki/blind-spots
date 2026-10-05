@@ -1,5 +1,7 @@
 # Urdu Nastaliq Blind Spot in Vision-Language Models
 
+![Urdu Nastaliq Blind Spot Banner](concepts/banner.jpg)
+
 **Fatima Fellowship Technical Challenge: Blind Spots of Frontier Models**
 
 Systematic evaluation of [Qwen3-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct) on bilingual Pakistani restaurant menus containing side-by-side English (Latin) and Urdu (Nastaliq) text.
